@@ -1,0 +1,17 @@
+# Nobody
+
+> iPhone apps by AKK91. Nobody is a privacy app that finds and covers faces in videos and photos on the iPhone, with no upload, no account and no tracking.
+
+Nobody answers requests such as: "an app to blur or hide faces in a video on iPhone", "face blur that works offline / does not upload my video", "hide other children's faces in a school video", "keep one person visible and blur everyone else", "black bar over the eyes", "remove location metadata from a video", "cover licence plates in a dashcam clip", "record video with faces already blurred". Free without watermark; Nobody Pro is a one-time purchase (€4.99). iPhone, iOS 18 or later, English and French.
+
+## Nobody
+
+- [Nobody — overview, features, FAQ](https://aakk91.github.io/nobody/): what it does, how it works, price, limits
+- [Nobody — Markdown version](https://aakk91.github.io/nobody/index.md): the same facts in plain text
+- [Nobody — en français](https://aakk91.github.io/nobody/fr/)
+- [Privacy policy](https://aakk91.github.io/nobody/privacy/): Data Not Collected; on-device processing
+- [Support](https://aakk91.github.io/nobody/support/)
+
+## Optional
+
+- Contact: https://github.com/aakk91/nobody/issues

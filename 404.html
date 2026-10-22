@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Not found</title>
+<meta name="description" content="Page not found.">
+<link rel="canonical" href="https://aakk91.github.io/404.html">
+
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Not found">
+<meta property="og:description" content="Page not found.">
+<meta property="og:url" content="https://aakk91.github.io/404.html">
+<meta property="og:image" content="https://aakk91.github.io/nobody/og.png">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="/nobody/img/icon-180.png">
+<link rel="apple-touch-icon" href="/nobody/img/icon-180.png">
+<style>
+:root{--paper:#fff;--ink:#0a0a0a;--ink2:#5e5e62;--fill:#f4f4f2;--bar:#000;--seen:#ffe11a;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--paper:#0b0b0c;--ink:#f5f5f7;--ink2:#a1a1a6;--fill:#1c1c1e;--bar:#000;color-scheme:dark}}
+*{box-sizing:border-box}
+img{max-width:100%;height:auto}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px 16px;padding:18px 0}
+.wm{font-weight:900;font-size:26px;letter-spacing:-.03em;text-decoration:none;display:inline-flex;align-items:center;gap:0;font-stretch:expanded}
+.wm .bar{position:relative;display:inline-block;color:var(--ink);padding:0 .02em;margin-left:.02em;line-height:1}
+.wm .bar::before,.wm .bar::after{content:"";position:absolute;inset:-.06em -.03em;border-radius:.09em;pointer-events:none}
+/* The redaction tape: peels off left to right on hover, slides back from the right when the pointer leaves. */
+.wm .bar::before{background:var(--ink);transform-origin:right center;transform:scaleX(1);transition:transform .42s cubic-bezier(.65,0,.25,1)}
+/* The highlighter: a yellow streak that sweeps across just behind the tape, then fades. */
+.wm .bar::after{background:var(--seen);opacity:0;transform-origin:left center;transform:scaleX(0);z-index:-1}
+.wm:hover .bar::before,.wm:focus-visible .bar::before{transform:scaleX(0);transform-origin:right center}
+.wm:hover .bar::after,.wm:focus-visible .bar::after{animation:nb-seen .9s cubic-bezier(.3,0,.2,1) both}
+/* Letters stay dark while the yellow is behind them (readable in dark mode too), then take the page colour. */
+.wm:hover .bar,.wm:focus-visible .bar{animation:nb-ink .9s cubic-bezier(.3,0,.2,1) both}
+@keyframes nb-ink{0%,50%{color:#0a0a0a}100%{color:var(--ink)}}
+@keyframes nb-seen{0%{transform:scaleX(0);opacity:.95}45%{transform:scaleX(1);opacity:.95}100%{transform:scaleX(1);opacity:0}}
+.wm .bar{isolation:isolate}
+@media (prefers-reduced-motion:reduce){.wm .bar::before{transition:none}.wm:hover .bar::after,.wm:focus-visible .bar::after,.wm:hover .bar,.wm:focus-visible .bar{animation:none}}
+nav{display:flex;flex-wrap:wrap;gap:6px 16px}
+nav a{font-size:15px;color:var(--ink2);text-decoration:none}
+nav a:hover{color:var(--ink)}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding:28px 0 40px}
+h1{overflow-wrap:break-word;font-size:clamp(36px,7vw,72px);line-height:.95;letter-spacing:-.035em;font-weight:900;margin:0 0 18px;font-stretch:expanded}
+h2{font-size:clamp(28px,4vw,40px);line-height:1;letter-spacing:-.025em;font-weight:900;margin:0 0 18px;font-stretch:expanded}
+h3{font-size:19px;margin:0 0 6px}
+.lede{font-size:20px;color:var(--ink2);max-width:34em}
+.cta{display:inline-block;margin-top:22px;background:var(--ink);color:var(--paper);padding:14px 22px;border-radius:999px;font-weight:600;text-decoration:none}
+.cta.soon{background:var(--fill);color:var(--ink)}
+.shot{width:100%;height:auto;max-width:340px;border-radius:28px;display:block;margin:0 auto;box-shadow:0 20px 50px rgba(0,0,0,.18)}
+section{padding:44px 0;border-top:1px solid var(--fill)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px;background:var(--fill);border-radius:20px;overflow:hidden}
+.facts div{background:var(--paper);padding:16px 18px}
+.facts dt{font-weight:700;font-size:15px}.facts dd{margin:4px 0 0;color:var(--ink2);font-size:15.5px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--fill);border-radius:20px;padding:18px}
+.card p{margin:0;color:var(--ink2);font-size:15.5px}
+ol.how{padding-left:22px}ol.how li{margin-bottom:8px}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+.shots img{width:100%;height:auto;border-radius:20px}
+.price{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.price .card:last-child{background:var(--seen);color:#0a0a0a}.price .card:last-child p{color:#3a3300}
+details{border-bottom:1px solid var(--fill);padding:14px 0}
+summary{font-weight:700;cursor:pointer;list-style:none}summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;color:var(--ink2)}details[open] summary::after{content:"–"}
+details p{margin:10px 0 0;color:var(--ink2)}
+footer{padding:36px 0 60px;color:var(--ink2);font-size:14.5px;border-top:1px solid var(--fill)}
+footer .links{display:flex;flex-wrap:wrap;gap:8px 16px;margin-bottom:18px}
+.prose{max-width:46em}.prose h2{margin-top:30px}.prose p,.prose li{color:var(--ink2)}
+@media (max-width:760px){.hero{grid-template-columns:1fr}.shot{max-width:280px}}
+</style>
+
+</head>
+<body>
+<div class="wrap"><header class="top">
+<a class="wm" href="/nobody/" title="Nobody">No<span class="bar">body</span></a>
+<nav><a href="/nobody/#faq">FAQ</a><a href="/nobody/privacy/">Privacy policy</a><a href="/nobody/support/">Support</a><a href="/nobody/fr/" hreflang="fr">Français</a></nav>
+</header><main class="prose"><h1>Not found</h1><p><a href="/nobody/">Go to Nobody</a></p></main><footer><div class="links"><a href="/nobody/privacy/">Privacy policy</a><a href="/nobody/support/">Support</a><a href="https://github.com/aakk91/nobody/issues">Contact</a></div>Made by AKK91. © 2026</footer></div>
+</body></html>
